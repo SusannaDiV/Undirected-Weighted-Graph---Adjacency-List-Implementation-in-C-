@@ -1,4 +1,4 @@
-# Undirected Weighted Graph - Adjacency List Implementation in C
+# Undirected Weighted Graph - Adjacency List Implementation in C++
 This project is a simulator for a satellite navigator, that could be used by a salesman to plan trips between the cities in which he trades. Among the many functions that the navigator must offer the user is also to search for and suggest a route that, from any city of departure, leads to another city of arrival. Normally the path to look for would be that of minimum length, but for simplicity we limit ourselves to any path as long as it is acyclic, that is to say that a same location is visited at most once. 
 The navigator is able to load, from files or standard input, the maps of the regions in which the user moves. The following actions can be carried out at the choice of the user: 
 1. Creation of the graph by acquiring information on vertices and arcs from standard input, expressed in the following format: 
